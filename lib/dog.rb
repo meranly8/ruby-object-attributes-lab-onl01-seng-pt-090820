@@ -4,7 +4,7 @@ class Dog
   end
   
   def name
-    @this_dogs_name
+    puts @this_dogs_name
   end
   
   def breed=(dog_breed)
@@ -12,6 +12,6 @@ class Dog
   end
   
   def breed
-    @this_dogs_breed
+    puts @this_dogs_breed
   end
 end
